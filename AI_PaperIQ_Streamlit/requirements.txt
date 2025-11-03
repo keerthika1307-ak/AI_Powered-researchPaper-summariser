@@ -1,0 +1,10 @@
+streamlit
+google-generativeai
+python-dotenv
+requests
+PyMuPDF
+nltk
+scikit-learn
+plotly
+textstat
+pandas

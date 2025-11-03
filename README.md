@@ -29,14 +29,11 @@ Data Fetching	ArXiv API / CORE API
 Visualization	Matplotlib / Plotly
 Language Processing	NLTK / spaCy
 Deployment Ready	Streamlit Cloud / Hugging Face Spaces
+
 🚀 How It Works
-
 Enter a topic, paste text, or upload a PDF.
-
 The app fetches related research papers using ArXiv/Core API.
-
 Gemini API generates a high-quality structured summary.
-
 The system visualizes the comparison between original vs summarized content.
 
 🧩 Example Summary Output
@@ -50,23 +47,17 @@ The system visualizes the comparison between original vs summarized content.
 📊 Insights:
 1. Quantum algorithms can break RSA-like systems.
 2. Post-quantum cryptography is a major research focus.
-
+ 
 🔗 References:
 - https://arxiv.org/abs/2107.04567
-
+- 
 💡 Future Enhancements
-
 Multi-language summarization
-
 Voice-based chatbot
-
 In-depth semantic similarity heatmaps
-
 Personalized research trend tracking
 
 🧑‍💻 Developed By
-
 Keerthika Anandhan
-
 Passionate about AI, Data, and Software Development 💻✨
 [#Infosys Springboard Virtual Internship Project]

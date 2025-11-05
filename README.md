@@ -57,7 +57,6 @@ Voice-based chatbot
 In-depth semantic similarity heatmaps
 Personalized research trend tracking
 
-🧑‍💻 Developed By
-Keerthika Anandhan
+
 Passionate about AI, Data, and Software Development 💻✨
 [#Infosys Springboard Virtual Internship Project]

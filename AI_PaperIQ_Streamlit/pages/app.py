@@ -1,5 +1,5 @@
 import streamlit as st
-from utils import gemini_api, pdf_extractor, text_analysis
+from utils import llm_service , pdf_extractor, text_analysis
 import time
 import requests
 import textwrap
@@ -482,7 +482,7 @@ Current context:
 Keep responses short, friendly and helpful.
 """
         full = system_prompt + "\n\nUser: " + message
-        return gemini_api.generate_chat_response(full)
+        return llm_service.generate_chat_response(full)
     except Exception:
         return "⚠️ I had trouble answering that. Please try again."
 
@@ -782,7 +782,7 @@ with left_col:
                     model_choice = (
                         "pro" if ai_model == "pro" else "flash" if ai_model == "flash" else "auto"
                     )
-                    summary = gemini_api.summarize_text(content, preferred=model_choice)
+                    summary = llm_service.summarize_text(content, preferred=model_choice)
 
                 st.session_state.conversation.append({"role": "ai", "text": summary})
                 # analytics for this summary
